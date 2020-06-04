@@ -1,6 +1,22 @@
 .navbar{
+    width: 100%;
+    height: auto !important;
     background-color: #F57F17 !important;
 }
 #logo-1{
-    width: 100px;
+    width: 150px;
+}
+#logo-head {
+    float: right;
+    color:red;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px #222;
+    margin: 30px auto 0px auto;
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
