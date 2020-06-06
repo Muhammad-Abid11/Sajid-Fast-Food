@@ -1,5 +1,9 @@
 body{
-background-color: #FFCC80;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFCC80;
+    text-transform: capitalize;
+    padding: 0%;
+    margin: 0%;
 }
 .navbar{
     width: 100%;
@@ -12,7 +16,6 @@ background-color: #FFCC80;
 #logo-head {
     float: right;
     color:red;
-    text-transform: capitalize;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 1px #222;
     margin: 30px auto 0px auto;
@@ -29,9 +32,84 @@ background-color: #FFCC80;
     /* height: 200px !important; */
     padding: 0px 30px 0px 30px !important;
 }
-#menu-heading{
+#menu-heading h1{
     margin: 10px auto 10px auto;
     text-align: center;
     background-color: #F57F17;
     color: whitesmoke;
+    width: 80%;
+}
+.card{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 24px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-text,.card-title{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #F57F17;
+}
+.btn-primary:hover{
+    background-color: #FFCC80;
+}
+ .card-img-top{
+    width: 100%;
+    height: 130px;
+}
+@media (max-width: 570px)
+{
+    .card-title{
+        font-size:20px ;
+        font-weight: bold;
+    }
+    .card{
+        width: 50%;
+    }
+}
+@media (max-width: 680px)
+{
+    .card{
+        margin: 20px auto 0px auto;
+    }
+}
+@media (min-width: 690px )and (max-width :768)
+{
+
+}
+@media (max-width:990)
+{
+
+}
+@media (max-width: 1199px)
+{
+    .card-title{
+        font-size:15px ;
+    }
+}
+/* Extra small<576px    Small≥576px	Medium≥768px	Large≥992px	 Extra large≥1200px */
+.footer{
+    /* margin-top: 20px; */
+    margin: 20px auto 0px auto;
+    height: auto;
+    padding-top: 50px;
+    color: whitesmoke;
+    background-color: #F57F17;
+} 
+h6{
+    font-size: 23px; 
+}
+h6+span{
+   font-size: 18px;
+}
+p#alert{
+    color: teal !important;
+}
+#copyright{
+    text-align: center;
 }
