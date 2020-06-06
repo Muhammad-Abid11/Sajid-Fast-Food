@@ -117,3 +117,7 @@ p#alert{
 #copyright{
     text-align: center;
 }
+p#copyright a{
+    color: whitesmoke;
+    text-decoration: none;
+}
