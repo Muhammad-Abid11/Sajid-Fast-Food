@@ -55,6 +55,10 @@ body{
     width: 100%;
     background-color: #F57F17;
 }
+.nav-item:hover{
+    background-color: #FFCC80;
+    border-radius: 20px;
+}
 .btn-primary:hover{
     background-color: #FFCC80;
 }
